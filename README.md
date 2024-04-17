@@ -28,8 +28,8 @@ Con las siguientes características
 
 #### 🧩 Archivos que componen el proyecto
 - [assets/](/assets/) - Contiene recursos usados por este archivo, actualmente solo contiene una imágen del diagrama.
-- [contador.vhd](/contador.vhd) - Contiene el código de un contador para encender un display de 7 segmentos por vez. **Característica especial de la tarjeta usada (EP4CE6E22C8N).**
-- [display7s.vhd](/display7s.vhd) - Recibe un número entre 0 y 9999 para pintarlo en los display de 7 segmentos. **Característica especial de la tarjeta usada (EP4CE6E22C8N).**
+- [contador.vhd](/contador.vhd) - Contiene el código de un contador para encender un display de 7 segmentos por vez. Es invocado como componente por el siguiente archivo. **Característica especial de la tarjeta usada (EP4CE6E22C8N).**
+- [display7s.vhd](/display7s.vhd) - Recibe un número entre 0 y 9999 para pintarlo en los display de 7 segmentos. Es invocado como componente por el siguiente archivo. **Característica especial de la tarjeta usada (EP4CE6E22C8N).**
 - [mealy.vhd](/mealy.vhd) - Contiene la lógica principal de la máquina de mealy.
 - [LICENSE](/LICENSE) - Contiene la licencia de uso.
 - [README.md](/README.md) - Es este documento.
