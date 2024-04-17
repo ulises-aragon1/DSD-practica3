@@ -24,8 +24,8 @@ Con las siguientes características
 
 ### 🖥️ Características del código
 - El código fue desarrollado para un FPGA EP4CE6E22
-- Utiliza dos contadores, uno para mover los años y realizar el cálculo de si es bisieto, el segundo sirve para encender cada display de 7 segmentos por un periodo de milisegundos, uno a la vez.
-- Utiliza módulos, razón por la cual tiene dos archivos _vhd_.
+- Utiliza un contador para encender cada display de 7 segmentos por un periodo de milisegundos, uno a la vez.
+- Utiliza módulos, razón por la cual tiene tres archivos _vhd_.
 
 #### 🧩 Archivos que componen el proyecto
 - [assets/](/assets/) - Contiene recursos usados por este archivo, actualmente solo contiene una imágen del diagrama.
